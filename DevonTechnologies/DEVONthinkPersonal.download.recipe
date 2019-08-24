@@ -13,7 +13,7 @@
 		<key>NAME</key>
 		<string>DEVONthink</string>
 		<key>SPARKLE_FEED_URL</key>
-		<string>http://www.devon-technologies.com/Sparkle/DEVONthink2.xml</string>
+		<string>https://api.devontechnologies.com/1/apps/sparkle/sparkle.php?id=217255</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
