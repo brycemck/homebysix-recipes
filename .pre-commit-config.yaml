@@ -3,8 +3,13 @@ repos:
   rev: v1.5.0
   hooks:
   - id: check-autopkg-recipes
-    args: [--recipe-prefix=com.github.homebysix.]
-    exclude: Kitematic
+    args: [
+      '--strict',
+      '--recipe-prefix',
+      'com.github.homebysix.',
+      'com.github.jps3.download.Kitematic',
+      'com.github.jps3.pkg.Kitematic',
+      'com.github.jps3.munki.Kitematic']
   - id: forbid-autopkg-overrides
   - id: forbid-autopkg-trust-info
 - repo: https://github.com/ambv/black
