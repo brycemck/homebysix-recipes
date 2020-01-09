@@ -65,7 +65,6 @@
 			<string>Versioner</string>
 		</dict>
 		<dict>
-		<dict>
 			<key>Processor</key>
 			<string>com.github.homebysix.VersionSplitter/VersionSplitter</string>
 		</dict>
